@@ -1,3 +1,4 @@
+# https://www.codementor.io/@ajayagrawal295/how-to-publish-your-own-python-package-12tbhi20tf
 import setuptools
 
 with open("README.md", "r") as fh:
@@ -22,5 +23,9 @@ setuptools.setup(
 )   
 
 '''
+python setup.py sdist bdist_wheel
+python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
 
 '''    
