@@ -1,2 +1,4 @@
+build
 cgli.egg-info/
 dist/
+__pycache__/
