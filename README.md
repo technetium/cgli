@@ -48,12 +48,21 @@ application_execute(application_maker(some_function, arguments))
 ### Command line
 
 Show arguments:
-```$ ./example.py -h```
+```
+$ ./example.py -h
+```
 Use arguments (long and short attribute names can be combined):
-```$ ./example.py -s"Hello World" --number 3```
+```
+$ ./example.py -s"Hello World" --number 3
+```
 
-###
+### Webserver
+
 Show arguments:
-``` http://example.com/example.py?h```
+```
+http://example.com/example.py?h
+```
 Use arguments (only long attribute names can be used)
-``` http://example.com/example.py?string=Hello+World&number=3```
+```
+http://example.com/example.py?string=Hello+World&number=3
+```
