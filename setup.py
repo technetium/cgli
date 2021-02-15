@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="cgli",
-    version="0.0.2",
+    version="0.0.3",
     author="Toni Cornelissen",
     author_email="cgli@technetium.be",
     description="utility to execute a pythonscript from both commandline and webserver",
