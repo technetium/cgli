@@ -110,7 +110,7 @@ def application_maker(method, arguments):
                 ('Content-type', 'application/json; charset=utf-8'),
                 ('Access-Control-Allow-Origin', 'null'), 
             ]
-            content = json.dumps(result, indent=4, sort_keys=True)
+            content = json.dumps(result, default=str, indent=4, sort_keys=True)
         else: 
             headers = [
                 ('Content-Type', 'text/html; charset=utf-8')
